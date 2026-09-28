@@ -1,10 +1,13 @@
 {
   "name": "telegram-tiktok-analytics-bot",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "private": true,
-  "description": "Telegram bot on Vercel that analyzes TikTok videos via TikWM API. Secrets stay in environment variables.",
+  "description": "Telegram bot on Vercel \u2014 TikTok analytics (web scrape + TikWM + MP4 FPS probe + proxy)",
   "type": "module",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "undici": "^6.21.0"
   }
 }
